@@ -40,6 +40,7 @@ git clone https://gitlab.com/munodennis/node-app.git
 - In the directory of the node app I will run the command:
 ```
 npm login --registry=http://54.145.29.176:8081/repository/npm-hosted-repo/
+npm pack
 npm publish --registry={npm-repo-url-in-nexus}
 ```
 <img width="556" height="155" alt="image" src="https://github.com/user-attachments/assets/9ec3ca52-c314-48a6-b0f1-0569128e1b8e" />
@@ -61,9 +62,12 @@ curl -u <nexus-user>:<nexus-user-password> -X GET 'http://<nexus-server-ip>:8081
 ```
 <img width="1057" height="625" alt="image" src="https://github.com/user-attachments/assets/a44ef88d-de83-435e-9446-fb545cd1e2fb" />
 - I will download the artifact using the downloadURl by the command:
+
 ```
 wget http://54.145.29.176:8081/repository/npm-hosted-repo/nodejs-app/-/nodejs-app-1.0.0.tgz://54.145.29.176:8081/repository/npm-hosted-repo/nodejs-app/-/nodejs-app-1.0.0.tgz
 ```
+
+
 
 
 
