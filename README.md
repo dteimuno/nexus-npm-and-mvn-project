@@ -65,7 +65,7 @@ curl -u <nexus-user>:<nexus-user-password> -X GET 'http://<nexus-server-ip>:8081
 
 ```
 wget http://54.145.29.176:8081/repository/npm-hosted-repo/nodejs-app/-/nodejs-app-1.0.0.tgz://54.145.29.176:8081/repository/npm-hosted-repo/nodejs-app/-/nodejs-app-1.0.0.tgz
-```
+
 
 
 
